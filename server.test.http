@@ -1,0 +1,35 @@
+
+@hostname = http://localhost:3000
+
+
+
+### Registe user
+
+
+POST {{hostname}}/api/auth/register
+Content-Type: application/json
+
+{
+    "name": "user",
+    "email": "user@test.com",
+    "password": "123456"
+}
+
+### Login user
+
+POST {{hostname}}/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "test@test.com",
+    "password": "123456"
+}
+
+### Refresh token
+
+POST {{hostname}}/api/auth/refresh
+Content-Type: application/json
+
+{
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF91c2VyIjoxLCJuYW1lIjoidGVzdCIsImlzX2FkbWluIjp0cnVlLCJpYXQiOjE3OTA1NTk5MTYsImV4cCI6MTc5MTE2NDcxNn0.Ih3XxIkWks1fFIHz3UvKuQHGSSyzNAlX0g2o_doRV9o"
+}

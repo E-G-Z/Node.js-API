@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789363141064,
+      "tag": "0000_flippant_sue_storm",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1789615816783,
+      "tag": "0001_robust_lila_cheney",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1790559286521,
+      "tag": "0002_grey_captain_britain",
+      "breakpoints": true
+    }
+  ]
+}
